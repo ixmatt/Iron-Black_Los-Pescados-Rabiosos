@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: white;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+    border-bottom: 2px solid #ff0000;
+}
+
+
+h1 {
+    color: #ff0000;
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-decoration:none;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.seccion {
+    margin-top: 40px;
+}
+
+.seccion h2 {
+    color: #ff0000;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.precio {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card button,
+.card .btn {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover,
+.card .btn:hover {
+    background-color: #cc0000;
+}
+
+/*  formulario centrado con fondo y borde rojo vro*/
+.form-container {
+    max-width: 400px;       
+    margin: 40px auto;      
+    padding: 30px 25px;     
+    background-color: #1a1a1a; 
+    border: 1px solid #ff0000; 
+    border-radius: 12px;    
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* santi estas son las etiquetas adentro del formulario*/
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+/* inputs y selects redonditos*/
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="password"],
+.form-container input[type="file"],
+.form-container input[type="email"],
+.form-container select {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    background-color: #0d0d0d;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* el enfoque para cambiar de color isma*/
+.form-container input[type="text"]:focus,
+.form-container input[type="number"]:focus,
+.form-container input[type="password"]:focus,
+.form-container input[type="file"]:focus,
+.form-container input[type="email"]:focus,
+.form-container select:focus {
+    border-color: #ff3333;
+}
+
+/* malditovich boton */
+.form-container input[type="submit"] {
+    width: 100%;
+    background-color: #ff0000;
+    border: none;
+    padding: 12px 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #cc0000;
+}
+
+.seccion ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.seccion ul li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.seccion a {
+  text-decoration: none;
+  color: #ff3333;
+}
+
+.seccion a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
