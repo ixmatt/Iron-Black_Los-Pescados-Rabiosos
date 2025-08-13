@@ -19,5 +19,5 @@ Este proyecto es una aplicación web en **PHP + MySQL** que permite a los admini
 - **Frontend:** HTML5, CSS, Bootstrap 5.
 - **Backend:** PHP .
 - **Base de datos:** MySQL.
-- **Servidor local:** XAMPP/WAMP/LAMP.
+
 
