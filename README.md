@@ -1,6 +1,23 @@
-# Iron-Black_Los-Pescados-Rabiosos
-Empresa dedicada a crear paginas web a pedido de clientes. 
+# 🛒 Ecomerce de Black Iron
 
-Título e imagen de portada; Insignias; Índice; Descripción del Proyecto; Estado del proyecto; Demostración de funciones y aplicaciones; Acceso al Proyecto; Tecnologías utilizadas; Personas Contribuyentes; Personas Desarrolladoras del Proyecto; Licencia.
+Este proyecto es una aplicación web en **PHP + MySQL** que permite a los administradores de BLACK IRON:
+- Registrarse e iniciar sesión.
+- Crear y administrar productos.
+- Crear kits compuestos por varios productos.
+- Ocultar o mostrar productos de forma dinámica.
+- Controlar stock automáticamente al vender kits.
+- Gestionar usuarios con **roles** (Admin / Cliente).
 
-VER: https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github
+## 📌 Características principales
+- **Autenticación segura** con roles.
+- **CRUD** de productos y kits.
+- **Control de stock** automático en kits.
+- **Procedimientos almacenados** para simplificar operaciones en MySQL.
+- Interfaz simple y responsive.
+
+## 🛠 Tecnologías usadas
+- **Frontend:** HTML5, CSS, Bootstrap 5.
+- **Backend:** PHP .
+- **Base de datos:** MySQL.
+- **Servidor local:** XAMPP/WAMP/LAMP.
+
