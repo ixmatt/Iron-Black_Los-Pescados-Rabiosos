@@ -1,17 +1,8 @@
 # Iron-Black_Los-Pescados-Rabiosos
-# Iron Black – Control de Stock
+# Iron Black – Entrevistas
 
 ## Descripción
 Página web para la gestión de stock de productos y kits de la empresa **Iron Black**. Permite controlar inventarios, ventas y asignar roles a los usuarios para limitar accesos según permisos.
-
-## Funcionalidades
-- **Control de stock de productos**: agregar, modificar y eliminar productos.
-- **Gestión de kits**: crear kits de productos y registrar cuánto stock de cada producto se utiliza en un kit.
-- **Conteo de ventas**: visualizar la cantidad de ventas realizadas por producto o kit.
-- **Roles de usuario e inicio de sesión**:
-  - **Administrador**: puede crear y eliminar productos y kits, y ver todas las ventas.
-  - **Usuario normal**: acceso limitado, no puede modificar stock ni productos.
-- **Diseño y usabilidad**: versión final con CSS y funciones adicionales solicitadas por el cliente.
 
 ## Historial de desarrollo
 1. **Primera entrevista**
