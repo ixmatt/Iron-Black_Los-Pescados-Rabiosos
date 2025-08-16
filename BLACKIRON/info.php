@@ -29,7 +29,7 @@ if (isset($_SESSION['usuario_id'])) {
 ?>
 
 <header>
-    <h1>BLACKIRON</h1>
+    <a href="index.php " style = "text-decoration: none;"><h1>BLACKIRON</h1></a>
     <nav>
         <a href="index.php" style="color:#fff; margin-right:15px; text-decoration:none;">Inicio</a>
 
@@ -103,4 +103,5 @@ if (isset($_SESSION['usuario_id'])) {
     </section>
 </main>
 </body>
+
 </html>
