@@ -1,27 +1,46 @@
 # Iron-Black_Los-Pescados-Rabiosos
 
+Iron Black – Control de Stock
+Descripción
+
+Este proyecto es una página web para la gestión de stock de productos y kits de la empresa Iron Black. Permite controlar inventarios, ventas y asignar roles a los usuarios para limitar accesos según permisos.
+
+Funcionalidades
+
+Control de stock de productos: agregar, modificar y eliminar productos.
+
+Gestión de kits: crear kits de productos y registrar cuánto stock se utiliza de cada producto en un kit.
+
+Conteo de ventas: visualizar la cantidad de ventas realizadas por producto o kit.
+
+Roles de usuario e inicio de sesión:
+
+Administrador: puede crear y eliminar productos y kits, y ver todas las ventas.
+
+Usuario normal: acceso limitado, no puede modificar stock ni productos.
+
+Diseño y usabilidad: implementación final con CSS y funciones adicionales solicitadas por el cliente.
+
+Historial de desarrollo
+
 Primera entrevista
 
-El cliente explicó que su empresa Iron Black necesitaba una forma de controlar el stock de productos, ya que hasta el momento solo se manejaban con papel.
+El cliente solicitó un sistema de control de stock, reemplazando el manejo en papel.
 
-Pregunté si necesitaban otras funcionalidades adicionales, pero me respondió que por ahora solo era necesario el control de stock.
+No requería otras funcionalidades en ese momento.
 
-Segunda entrevista (1 semana después – presentación inicial)
+Segunda entrevista
 
-Le mostré el producto en crudo, sin diseño CSS, con las funciones básicas:
+Se presentó un prototipo básico sin diseño.
 
-Control de stock de productos y kits
+Se agregó la funcionalidad para registrar el stock utilizado por cada producto en kits.
 
-Creación de productos y kits
-
-El cliente pidió una mejora:
-
-Agregar una forma de indicar cuánto stock de cada producto se utiliza dentro de un kit.
-
-Además, se incluyó el conteo de ventas para mejorar el control general.
+Se incluyó el conteo de ventas.
 
 Iteración final
 
-Se agregaron roles e inicio de sesión para diferenciar entre usuarios normales y administradores, evitando que cualquiera pueda modificar información crítica.
+Se implementaron roles e inicio de sesión.
 
-Finalmente, con la incorporación del diseño CSS y las funciones adicionales solicitadas, el cliente revisó el sistema y comentó que la página estaba perfecta y cumplía con lo esperado.
+Se aplicó CSS y mejoras de usabilidad.
+
+El cliente aprobó la versión final como perfecta y funcional.
